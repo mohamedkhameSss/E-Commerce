@@ -15,7 +15,7 @@ import SignUp from "./pages/SignUp";
 import Success from "./pages/Success";
 function App() {
   const user = true;
-  const router = createHashRouter([
+  const router = createBrowserRouter([
     {
       path: "/",
       element: user ? <MasterLayout /> : <Login />,

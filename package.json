@@ -1,5 +1,5 @@
 {
-  "name": "`",
+  "name": "e-commerce",
   "proxy": "http://localhost:5000/api",
   "version": "0.1.0",
   "homepage": "https://mohamedkhameSss.github.io/E-Commerce",

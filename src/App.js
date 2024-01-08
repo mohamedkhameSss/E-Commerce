@@ -13,8 +13,9 @@ import Product from "./pages/Product";
 import ShoppingCart from "./pages/ShoppingCart";
 import SignUp from "./pages/SignUp";
 import Success from "./pages/Success";
+import { useSelector } from "react-redux";
 function App() {
-  const user = true;
+  const user = useSelector((state) => state.user.currentUser);
   const router = createHashRouter([
     {
       path: "/",
